@@ -1,0 +1,245 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: silver;
+    
+}
+
+.main_card {
+	color: #fff;
+	width: 760px;
+	height: 390px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 770px;
+	background: #b40e0e; 
+	background: -webkit-linear-gradient(to right, #c42121, #e9313a);
+	background: -webkit-gradient(linear, left top, right top, from(#d63838), to(#bb2632));
+	background: -webkit-linear-gradient(left, #e22939, #db3038);
+	background: -o-linear-gradient(left, #e21919, #a11414);
+	background: linear-gradient(to right, #df2a2a, #c01f34); 
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.3); 
+	        box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.card_left {
+	width: 90%;
+}
+
+.card_datails {
+	width: 90%;
+	padding: 30px;
+	margin-top: -25px;
+}
+.card_datails  h1 {
+	font-size: 30px;
+}
+.card_right img {
+	height: 390px;
+	border-radius: 2px;
+}
+.card_right {
+	border-radius: 2px;
+}
+
+.card_cat {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.PG, .year, .genre, .time {
+	color: fff;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.PG {
+	background: rgb(180, 42, 42);
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	        box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	-webkit-transition: 300ms ease-in-out;
+}
+
+.disc {
+	font-weight: 100;
+	line-height: 27px;
+}
+a {
+	color: whitesmoke;
+	display: block;
+	text-decoration: none;
+}
+.social-btn {
+	margin-left: -10px;
+}
+button {
+	color: #fff;
+	border: none;
+	padding: 20px;
+	outline: none;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-left: 10px;
+	background: #140e0e;
+	border-radius: 12px;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	-webkit-transition: 300ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+}
+
+button:hover {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.play_btn {
+	height: 100%;
+	margin: -394px auto;
+	position: relative;
+	text-align: center;
+	background: rgba(0, 244, 170,0.4);
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+.fa-play-circle {
+	color: #255;
+	font-size: 160px;
+	margin-top: 110px;
+	-webkit-animation: bounce 1.0s -0.4s infinite;
+	        animation: bounce 1.0s -0.4s infinite;
+}
+
+.fa-play-circle:hover {
+	color: aqua;
+	animation: bounce 0.4s infinite;
+}
+@-webkit-keyframes bounce {
+  8% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.8);
+    opacity: 1;
+  }
+  10% {
+    transform: scale(1.8);
+    -webkit-transform: scale2);
+    opacity: 0;
+		}
+}
+
+@keyframes bounce {
+  8% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.8);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(1.8);
+    -webkit-transform: scale2);
+    opacity: 0;
+		}
+}
+
+
+  
+  h2 {
+	margin: 20px auto 80px;
+	font-size: 38px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 1.5;
+  }
+  
+  details {
+	width: 75%;
+	min-height: 5px;
+	max-width: 700px;
+	padding: 45px 70px 45px 45px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 22px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 15px;
+	box-sizing: border-box;
+	transition: all .3s;
+  }
+  
+  details + details {
+	margin-top: 20px;
+  }
+  
+  details[open] {
+	min-height: 50px;
+	background-color: #f6f7f8;
+	box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  }
+  
+  details p {
+	color: #96999d;
+	font-weight: 300;
+  }
+  
+  summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 500;
+	cursor: pointer;
+  }
+  
+  summary:focus {
+	outline: none;
+	
+  }
+  
+  summary:focus::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 0 5px rgb(211, 49, 49);
+  }
+  
+  summary::-webkit-details-marker {
+	display: none
+  }
+  
+  .control-icon {
+	fill: rebeccapurple;
+	transition: .3s ease;
+	pointer-events: none;
+  }
+  
+  .control-icon-close {
+	display: none;
+  }
+  
+  details[open] .control-icon-close {
+	display: initial;
+	transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+	display: none;
+  }
+  
+
+
+
+
+
+
+

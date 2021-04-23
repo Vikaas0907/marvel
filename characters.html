@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/charac.css">
+	<link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  max-width: 400px;
+  height: 550px;
+  margin: auto;
+  font-family: arial;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+button {
+  float: border-bottom;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #DC143C;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+<div class="position-relative">
+            <div class="position-absolute tm-site-header">
+                <div class="container-fluid position-relative">
+                    <div class="row">
+                        <div class="col-5 col-md-8 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                        data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="Home page.html">Home</a>
+                                            </li>
+											<li class="nav-item active">
+                                                <a class="nav-link tm-nav-link" href="#">Characters<span class="sr-only">(current)</span></a>
+                                            </li>
+											<li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="movies2.html">Movies</a>
+                                            </li>
+											<li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="upcoming.html">Updates </a>
+                                            </li>
+											<li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="merchandise.php">Merchandise</a>
+                                            </li>
+                                           
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tm-video-container">  
+					<img id ="tm-video" src="img/nav-bar2.png">
+            </div>
+<br>
+<div class="row">
+	<div class="column">
+    <div class="card">
+    	<img src="img/hulk.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Hulk</h1>
+    	<p class="title">Bruce Banner</p>
+      <p>Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk.</p><br><br>
+      <a href="https://www.marvel.com/characters/hulk-bruce-banner" target="_blank">
+    <p><button class="btn-bot">Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/thanos2.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Thanos</h1>
+    	<p class="title"><br></p>
+		<p>The Mad Titan Thanos quests across the universe in search of the Infinity Stones.
+		Using the power of the Infinity Stones, Thanos believes he can ultimately save the universe by wiping out half of its population.</p>
+        <a href="https://www.marvel.com/characters/thanos" target="_blank">
+        <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/iron-man3.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Iron Man</h1>
+    	<p class="title">Tony Stark</p>
+      <p>Genius. Billionaire. Philanthropist.
+		Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.
+       </p>
+        <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank">
+	  <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/hawkeye3.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Hawkeye</h1>
+    	<p class="title">Clint Barton</p>
+      <p>An expert marksman and fighter, works for S.H.I.E.L.D. as a special agent.
+	  The archer known as Hawkeye also boasts a strong moral compass that at times leads him astray from his direct orders.</p>
+      <a href="https://www.marvel.com/characters/hawkeye-clint-barton" target="_blank">
+	  <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+    	<img src="img/capAmerica3.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Captain America</h1>
+    	<p class="title">Steve Rogers</p>
+      <p>Recipient of the Super-Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world’s mightiest heroes and 
+	  continues his fight in the present as an Avenger and untiring sentinel of liberty.</p>
+      <a href="https://www.marvel.com/characters/captain-america-steve-rogers" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/thor2.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Thor</h1>
+    	<p class="title">Thor Odinson</p>
+      <p>The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.
+		He wields the power of the ancient Asgardians to fight evil throughout the Nine Realms and beyond.</p>
+        <a href="https://www.marvel.com/characters/thor-thor-odinson" target="_blank">
+        <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/black-widow3.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Black Widow</h1>
+    	<p class="title">Natasha Romanoff</p>
+      <p>One of S.H.I.E.L.D.’s most deadly assassins and a frequent member of the Avengers.
+	  She strives to make up for her bad past by helping the world, even if that means getting her hands dirty in the process.</p>
+      <a href="https://www.marvel.com/characters/black-widow-natasha-romanoff" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/scar-witch.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Scarlet Witch</h1>
+    	<p class="title">Wanda Maximoff</p>
+      <p>Wanda Maximoff aimed her anger over her parents death at Tony Stark, 
+	  which eventually led her to gain powers at HYDRA, which drove her to Ultron-and
+      switched sides to do what is right to help the world..</p>
+      <a href="https://www.marvel.com/characters/scarlet-witch-wanda-maximoff" target="_blank">
+	  <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+	<div class="column">
+    <div class="card">
+    	<img src="img/dstrange.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Doctor Strange</h1>
+    	<p class="title">Stephen Strange</p>
+      <p>Formerly a renowned surgeon, now serves as the Sorcerer Supreme-Earth’s newest Master of Mystic arts by protecting against magical and mystical threats,
+	  possessing vast magical knowledge and skills to call upon.</p>
+      <a href="https://www.marvel.com/characters/doctor-strange-stephen-strange" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+	<div class="column">
+    <div class="card">
+    	<img src="img/ant-man2.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Ant Man</h1>
+    	<p class="title">Scott Lang</p>
+      <p>When ex-criminal Scott Lang turned to his illicit skills in order to save his daughter’s life,
+	  he unexpectedly became the size-shifting, insect-commanding Super Hero known as Ant-Man!</p>
+      <a href="https://www.marvel.com/characters/ant-man-scott-lang" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/cap-mar.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Captain Marvel</h1>
+    	<p class="title">Carol Danvers</p>
+      <p>Near death, Carol Danvers was transformed into a powerful warrior for the Kree.
+	  Now, returning to Earth years later, she must remember her past in order to to prevent a full invasion by shapeshifting aliens, the Skrulls.</p>
+      <a href="https://www.marvel.com/characters/captain-marvel-carol-danvers" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+    	<img src="img/black-panther.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Black Panther</h1>
+    	<p class="title">T'Challa</p>
+      <p>T'Challa is the king of the secretive and highly advanced African nation of Wakanda - as well as the powerful warrior known as the Black Panther.
+	  He protects his people as the latest in a legacy line of Black Panther warriors.</p>
+      <a href="https://www.marvel.com/characters/black-panther-t-challa" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+    	<img src="img/nick-fury.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Nick Fury</h1>
+    	<p class="title">Nicholas Joseph Fury</p>
+      <p>In the years following the Cold War, Nick Fury wrestles with his sense of purpose within S.H.I.E.L.D.
+	  When Nick crosses paths with Captain Marvel, they become Earth's only hope of stopping a Skrull invasion.</p>
+      <a href="https://www.marvel.com/characters/nick-fury-jr" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/star-lord2.jpg" alt="John" style="width:320px; height:242px">
+        <h1>Star Lord</h1>
+    	<p class="title">Peter Quill</p>
+      <p>Would-be thief Peter Quill journeys through space as Star-Lord, the leader of the Guardians of the Galaxy,
+	  brings a sassy sense of humor while protecting the universe from any and all threats.</p>
+      <a href="https://www.marvel.com/characters/star-lord-peter-quill" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/vision.jpg" alt="John" style="width:100%">
+        <h1>Vision</h1>
+    	<p class="title">Vision</p>
+      <p>The android called Vision defies physics and fights as an Avenger with the power of density manipulation and his flawless computer brain.
+	  He does his best to understand and control the Mind Stone in his forehead as an Avenger.</p>
+      <a href="https://www.marvel.com/characters/vision" target="_blank">
+      <p><button>Learn More</button></p></a>
+    </div>
+  </div>
+  
+</div>
+<br>
+
+<footer class="footer">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 footer-navigation">
+            <h3><a href="#">Marvel<span>Fan Portal</span></a></h3>
+            <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Movies</a><strong> · </strong><a href="#">Updates </a><strong> · </strong> <a href="#">characters</a><strong> · </strong><a href="#">Contact</a></p>
+            <p class="company-name">offical marvel site : <a href="https://www.marvel.com/ "> <span>https://www.marvel.com/ </span></a></p>
+        </div>
+	
+	
+        <div class="col-sm-6 col-md-4 footer-contacts">
+            <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                <p><span class="new-line-span">VV Puram</span>Bangalore</p>
+            </div>
+            <div><i class="fa fa-phone footer-contacts-icon"></i>
+                <p class="footer-center-info email text-left"> +1 9485045958</p>
+            </div>
+            <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                <p> <a href="#" target="_blank"> <span>anjali.marvelfanportal@gmail.com</span></a></p>
+            </div>
+        </div>
+	
+	
+        <div class="clearfix"></div>
+        <div class="col-md-4 footer-about">
+            <h4>About the website</h4>
+            <p>This webiste is dedicated to marvel movie franchise and its fans.</p>
+            <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+        </div>
+    </div>
+</footer>
+
+</body>
